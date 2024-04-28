@@ -1,0 +1,86 @@
+h1{
+	color:white;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	font-size: 35pt;
+	text-decoration:underline;
+}
+
+h2,h3,h4{
+	color:white;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+}
+
+h3{
+    color:white;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+    a {
+		text-decoration: none;
+		color: #9a1aea;
+		border:0.2px solid;
+		color: #9a1aea;
+		background: none;
+		border-radius: 1px;
+		position: bottom;
+		white-space: nowrap;
+	  } 
+}
+
+
+p{
+	overflow: hidden;
+	color:white;
+	font-family: 'Courier New', Courier, monospace;
+	text-align:left;
+	font-size:11pt;
+	text-indent:20px;
+	text-wrap:normal;
+}
+
+body{
+	background-size: cover;
+    color:white;
+	font-family: 'Courier New', Courier, monospace;
+    margin:10px auto;
+    background-image: url('../images/purpleb.png');
+    background-size: cover;
+}
+
+#container{
+	height: 100% auto;
+	width: 1500px;
+	margin: 10px auto;
+}
+
+#narrative{
+	width: 700px;
+	height: 100%;
+	margin: 10px auto;
+}
+
+#textcontainer{
+width:680px;
+padding-left:10px;
+padding-right:4px;
+padding-top:-5px;
+height:auto;
+border:solid;
+background-color: black;
+}
+
+#leftside{
+	width: 400px;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+#rightside{
+	width: 400px;
+	height: 100%;
+	float: right;
+	text-align: center;
+}
+

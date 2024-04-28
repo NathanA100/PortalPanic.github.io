@@ -1,0 +1,87 @@
+
+h1{
+	color:white;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	font-size: 35pt;
+	text-decoration:underline;
+}
+
+h2,h3,h4{
+	color:white;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+}
+
+p{
+	overflow: hidden;
+	color:white;
+	font-family: 'Courier New', Courier, monospace;
+	text-align:left;
+	font-size:11pt;
+	text-indent:20px;
+	text-wrap:normal;
+}
+
+body{
+	background-color:black;
+    background-size: cover;
+    color:white;
+	font-family: 'Courier New', Courier, monospace;
+    margin:10px auto;
+}
+
+#container{
+	height: 100% auto;
+	width: 1500px;
+	margin: 10px auto;
+}
+
+#narrative{
+	width: 700px;
+	height: 100%;
+	margin: 10px auto;
+}
+
+#textcontainer{
+width:680px;
+padding-left:10px;
+padding-right:4px;
+padding-top:-5px;
+height:auto;
+border:solid;
+}
+
+#leftside{
+	width: 400px;
+	height: 100%;
+	float: left;
+	text-align: center;
+	a {
+		text-decoration: none;
+		border: 0.2px solid #F27405;
+		color: #F27405;
+		background: #000;
+		border-radius: 1px;
+		position: bottom;
+		white-space: nowrap;
+	  }
+}
+
+#rightside{
+	width: 400px;
+	height: 100%;
+	float: right;
+	text-align: center;
+	a {
+		text-decoration: none;
+		color: #0583F2;
+		border:0.2px solid;
+		color: #0583F2;
+		background: #000;
+		border-radius: 1px;
+		position: bottom;
+		white-space: nowrap;
+	  }
+}
+

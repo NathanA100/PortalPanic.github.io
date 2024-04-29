@@ -1,0 +1,117 @@
+h1{
+	color:white;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	font-size: 35pt;
+	text-decoration:underline;
+}
+
+h2,h3,h4{
+	color:white;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+}
+h2{font-size: 30pt;
+    color:#635e5e;
+}
+
+h3{
+    color:white;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+    a {
+		text-decoration: none;
+		color: #635e5e;
+		border:0.2px solid;
+		color: #635e5e;
+		background: #000;
+		border-radius: 1px;
+		position: bottom;
+		white-space: nowrap;
+	  } 
+}
+
+h4{
+    opacity: 0%;
+    height:1300px;
+}
+
+p{
+	overflow: hidden;
+	color:white;
+	font-family: 'Courier New', Courier, monospace;
+	text-align:left;
+	text-indent:20px;
+	text-wrap:normal;
+    font-size: 15.5pt;
+}
+
+body{
+    background-size: cover;
+    color:white;
+	font-family: 'Courier New', Courier, monospace;
+    margin:10px auto;
+    background-image: url("../images/eyes.png");
+    background-size: cover;
+}
+
+#container{
+	height: 100% auto;
+	width: 1500px;
+	margin: 10px auto;
+}
+
+#narrative{
+	width: 700px;
+	height: 100%;
+	margin: 10px auto;
+}
+
+#textcontainer{
+width:680px;
+padding-left:10px;
+padding-right:4px;
+padding-top:-5px;
+height:auto;
+border:solid;
+background-color: black;
+
+}
+
+#leftside{
+	width: 400px;
+	height: 100%;
+	float: left;
+	text-align: center;
+	a {
+        text-decoration: none;
+		border: 0.2px solid #635e5e;
+		color: #635e5e;
+		background: none;
+		border-radius: 1px;
+		position: bottom;
+		white-space: nowrap;
+        font-size: 25pt;
+        font-weight: bold;
+	  }
+}
+
+#rightside{
+	width: 400px;
+	height: 100%;
+	float: right;
+	text-align: center;
+	a {
+		text-decoration: none;
+		color: #635e5e;
+		border:0.2px solid;
+		color: #635e5e;
+		background: none;
+		border-radius: 1px;
+		position: bottom;
+		white-space: nowrap;
+        font-size: 25pt;
+        font-weight: bold;
+	  }
+}
+
